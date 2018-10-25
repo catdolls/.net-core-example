@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ActivityPost.Core\ActivityPost.Core.csproj" />
+    <ProjectReference Include="..\ActivityPost.Infrastructure\ActivityPost.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

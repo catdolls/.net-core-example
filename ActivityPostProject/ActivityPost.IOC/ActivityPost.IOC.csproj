@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StructureMap" Version="4.6.1" />
+    <PackageReference Include="StructureMap.Microsoft.DependencyInjection" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ActivityPost.Core\ActivityPost.Core.csproj" />
+    <ProjectReference Include="..\ActivityPost.Infrastructure\ActivityPost.Infrastructure.csproj" />
+    <ProjectReference Include="..\ActivityPost.Services\ActivityPost.Services.csproj" />
+  </ItemGroup>
+
+</Project>
